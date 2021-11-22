@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="o3,u)so;=+cipyP.b,_P">send</variable></variables><block type="pxt-on-start" id="hH}O0pHMJM}||j)!1FRW" x="0" y="0"><statement name="HANDLER"><block type="radio_set_group" id="am^#?n~UA|3p;4hmO`NA"><value name="ID"><shadow type="math_number_minmax" id="%[X;s46y##gC_D{XH^el"><mutation min="0" max="255" label="Id" precision="0"/><field name="SLIDER">69</field></shadow></value></block></statement></block><block type="input_on_sound" id="otHgH?ndIzh34PHTlPR)" x="50" y="207"><field name="sound">DetectedSound.Loud</field><statement name="HANDLER"><block type="basic_show_icon" id="UIYg?AK[7V6Sfu2$5#ub"><field name="i">IconNames.Yes</field><next><block type="variables_set" id="`p~uc$Kg[eXZ-1.PlOuf"><field name="VAR" id="o3,u)so;=+cipyP.b,_P">send</field><value name="VALUE"><shadow type="math_number" id=",CL_Epz7dFqvwjj`kI[1"><field name="NUM">1</field></shadow></value><next><block type="radio_datagram_send" id="plAQ=AB.pd3~|*3K!%dw"><value name="value"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="h/0PD,T./mFJ-)7Al3|)"><field name="VAR" id="o3,u)so;=+cipyP.b,_P">send</field></block></value><next><block type="device_show_leds" id="d^Dx9th3yc_cJnfN3#X]"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field></block></next></block></next></block></next></block></statement></block></xml>
